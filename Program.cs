@@ -10,11 +10,11 @@ string [] CreateArray(int length){
     return array;
 }
 
-// void ShowArray(string [] array){
-//     for(int i = 0; i < array.Length; i++){
-//         Console.Write(array[i] + " ");
-//     }
-// }
+void ShowArray(string [] array){
+    for(int i = 0; i < array.Length; i++){
+        Console.Write(array[i] + " ");
+    }
+}
 
 // void CountSymbols(string [] array){
 //     for(int i = 0; i < array.Length; i++){
