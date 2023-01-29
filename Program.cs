@@ -31,10 +31,10 @@ void CountSymbols(string [] array){
 }
 
 
-// Console.WriteLine("Введите количество элементов массива: ");
-// int length = Convert.ToInt32(Console.ReadLine());
-// string [] newArray = CreateArray(length);
-// ShowArray(newArray);
-// Console.WriteLine();
-// Console.WriteLine("Указанные ниже элементы массива строк состоят из 3х и менее символов:");
-// CountSymbols(newArray);
+Console.WriteLine("Введите количество элементов массива: ");
+int length = Convert.ToInt32(Console.ReadLine());
+string [] newArray = CreateArray(length);
+ShowArray(newArray);
+Console.WriteLine();
+Console.WriteLine("Указанные ниже элементы массива строк состоят из 3х и менее символов:");
+CountSymbols(newArray);
