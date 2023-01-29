@@ -16,19 +16,19 @@ void ShowArray(string [] array){
     }
 }
 
-// void CountSymbols(string [] array){
-//     for(int i = 0; i < array.Length; i++){
-//         int amountOfSymbols = 3;
-//         int count = array[i].Length;
-//         if(count <= amountOfSymbols){
-//             Console.Write(array[i] + " ");
-//             }
-//         else{
-//             Console.Write(" ");
-//         }
+void CountSymbols(string [] array){
+    for(int i = 0; i < array.Length; i++){
+        int amountOfSymbols = 3;
+        int count = array[i].Length;
+        if(count <= amountOfSymbols){
+            Console.Write(array[i] + " ");
+            }
+        else{
+            Console.Write(" ");
+        }
 
-//     }
-// }
+    }
+}
 
 
 // Console.WriteLine("Введите количество элементов массива: ");
