@@ -1,14 +1,14 @@
 ﻿
 
 
-// string [] CreateArray(int length){
-//     string [] array = new string[length];
-//     for(int i = 0; i < length; i++){
-//         Console.WriteLine($"Введите элемент массива под индексом {i}: ");
-//         array[i] = Convert.ToString(Console.ReadLine());
-//     }
-//     return array;
-// }
+string [] CreateArray(int length){
+    string [] array = new string[length];
+    for(int i = 0; i < length; i++){
+        Console.WriteLine($"Введите элемент массива под индексом {i}: ");
+        array[i] = Convert.ToString(Console.ReadLine());
+    }
+    return array;
+}
 
 // void ShowArray(string [] array){
 //     for(int i = 0; i < array.Length; i++){
